@@ -1,6 +1,6 @@
 <?php 
 
-	const BASE_URL = "http://localhost:8080/dashboard/PaginaCursos/";
+	const BASE_URL = "https://cursologia.herokuapp.com/";
 
 	date_default_timezone_set('America/Monterrey');
 
