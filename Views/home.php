@@ -1,5 +1,10 @@
 <?php headerAdmin($data); ?>
 	<div class="Contenido" id="Contenido3">
+		<?php
+		require_once 'apiCurso.php';
+		$api = new apiCursos();
+		$api->getAll();
+		?>
 		
 		<h1> Cursos Mas Recientes </h1>
 		<div class="Vacio"></div>
